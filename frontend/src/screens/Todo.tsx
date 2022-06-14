@@ -80,9 +80,6 @@ function Todo(props: TodoProps) {
         <Col>
           <Section className='has-background-gradient'>
             <h3>Todo App</h3>
-            <Button type="button" isOutline>
-            <span className='sgds-icon sgds-icon-refresh' />
-            </Button>
           </Section>
           <Section isSmall>
             <form action='#' onSubmit={(event) => {
